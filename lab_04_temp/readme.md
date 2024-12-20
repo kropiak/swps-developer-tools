@@ -1,6 +1,6 @@
 # Git and Visual Studio Code
 
-> Official tutorial for VSC nad Git: https://code.visualstudio.com/docs/sourcecontrol/github
+> Official tutorial for VSC and Git: https://code.visualstudio.com/docs/sourcecontrol/github
 
 > Download page: https://code.visualstudio.com/download
 
