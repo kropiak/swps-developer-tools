@@ -327,6 +327,7 @@ locate "*l*s"
 locate "/usr/share/man/*ls.1.gz"
 ```
 
+###### The `find` command
 
 The actual search of the system's directory structure for files (and directories) can be accomplished by using the command:
 
