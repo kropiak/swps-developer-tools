@@ -342,7 +342,7 @@ The first argument of the find command call is the name of the directory from wh
 - `mtime <days>` - items on which were modified a given number of days ago; before the number of days you can specify + or - signs, they then mean respectively: items on which were modified more/less days ago;
 - `ctime <days>` - items whose i-node was modified the given number of days ago; before the number of days, you can specify + or - signs, they then mean respectively: items whose i-node was modified more/less days ago;
 - `type <type>` - specify which items are to be found: f - regular files, d - directories, l - symbolic links, c - character devices (unbuffered), b - block devices (buffered), p - FIFO queues;
-- `exec <command> [{}] } - executes any command; the command can be executed on found items - then use {} characters as command argument.
+- `exec <command> [{}] \;` - executes any command; the command can be executed on found items - then use {} characters as command argument.
 
 Here are examples of how to use the find command:
 
