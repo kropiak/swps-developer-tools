@@ -438,7 +438,7 @@ will add the data to the file list.txt.
 19. Check your own ID and the groups to which you belong.
 20. Check who is currently logged into the system.
 21. Review the description of the directory structure - the `man 7 hier` command. 
-22. Display the contents of the `/home` directory.
+22. Display the contents of the `/home` directory (Possibly `/Users` folder for MacOs users).
 23. View the contents of the basic directories on the system (e.g. `/dev, /etc, /home, /usr`).
 24. Create directory `cat1` in your home directory.
 25. In the `cat1` directory, create the `cat2/cat3/cat4` directory structure with one command.
