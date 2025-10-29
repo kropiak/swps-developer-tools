@@ -430,7 +430,7 @@ will add the data to the file list.txt.
 11. Using `find` search for all files in the `~` folder that have been modified in the last day.
 12. Using `find`, find all files that have the word 'mozilla' in their name and are located in subdirectories of the `/usr` directory.
 13. Using the `find` program, find all directories with the name bin that are located in the `/usr` directory.
-14. Using the `ls` command, display only files with the extension `txt`, which are located in the `/home` folder. Write the result to the file `txt_files.txt`.
+14. Using the `ls` and `grep` command, display only files with the extension `txt`, which are located in the `/home` folder. Write the result to the file `txt_files.txt`.
 15. Display all resources from the `/var/log` folder whose name begins with 'a' and the letter 't' is in the 3rd position.
 16. Display the first 3 lines of the file from exercise 14.
 17. Display on the console the number of words from the file from exercise 14.
