@@ -430,29 +430,28 @@ will add the data to the file list.txt.
 11. Using `find` search for all files in the `~` folder that have been modified in the last day.
 12. Using `find`, find all files that have the word 'mozilla' in their name and are located in subdirectories of the `/usr` directory.
 13. Using the `find` program, find all directories with the name bin that are located in the `/usr` directory.
-14. Using the `ls` command, display only files with the extension txt, which are located in the home folder.
+14. Using the `ls` command, display only files with the extension `txt`, which are located in the `/home` folder. Write the result to the file `txt_files.txt`.
 15. Display all resources from the `/var/log` folder whose name begins with 'a' and the letter 't' is in the 3rd position.
-16. Display the first 20 lines of the file from exercise 9.
-17. Display on the console the number of words from the file from exercise 7.
-18. Hide the file `name.txt` using the shell commands you learned.
-19. Change your own password.
-20. Check your own ID and the groups to which you belong.
-21. Check who is currently logged into the system.
-22. Review the description of the directory structure - the `man 7 hier` command. 
-23. Display the contents of the home directory.
-24. View the contents of the basic directories on the system (e.g. `/dev, /etc, /home, /usr`).
-25. Create directory `cat1` in the home directory.
-26. In the `cat1` directory, create the `cat2/cat3/cat4` directory structure with one command.
-27. Delete the entire `cat3/cat4` directory structure with one command.
-28. Create two arbitrarily named files with `.txt` and `.c` extensions in the home directory.
-29. Copy all files in the home directory with `.txt` extensions to the `cat1` directory with one command.
-30. Copy with one command all files from home directory with `.c` extension to  `cat2` directory.
-31. Copy the entire directory structure of `cat1` creating an analogous structure named `cat1b`.
-32. Delete all files from the `cat1/cat2` directory.
-33. Delete the entire `cat1b` directory structure with one command.
-34. Rename any file in `cat1` directory.
-35. Move the `cat1/cat2` directory to your home directory thus creating the `cat2b` directory.
-36. Using the `locate` program, find all items that have the word `mozilla` in their name.
-37. Using the `locate` program, find all items that have the word `mozilla` in their names and are located in subdirectories of the `/usr` directory.
-38. copy all regular files between 10 and 100 bytes in size from the `/usr/bin` directory to the `cat1/cat2` directory (use the `find` command with the `-exec` parameter - be carefull when executing commands this way, those changes might be hard to rollback).
-39. In your home directory, create a file named `file.txt` - check what are the access rights to it.
+16. Display the first 3 lines of the file from exercise 14.
+17. Display on the console the number of words from the file from exercise 14.
+18. Hide the file `txt_files.txt` using the shell commands you learned.
+19. Check your own ID and the groups to which you belong.
+20. Check who is currently logged into the system.
+21. Review the description of the directory structure - the `man 7 hier` command. 
+22. Display the contents of the `/home` directory.
+23. View the contents of the basic directories on the system (e.g. `/dev, /etc, /home, /usr`).
+24. Create directory `cat1` in your home directory.
+25. In the `cat1` directory, create the `cat2/cat3/cat4` directory structure with one command.
+26. Delete the entire `cat3/cat4` directory structure with one command.
+27. Create two arbitrarily named files with `.txt` and `.c` extensions in your home directory.
+28. Copy all files from your home directory with `.txt` extensions to the `cat1` directory with one command.
+29. Copy with one command all files from your home directory with `.c` extension to  `cat2` directory.
+30. Copy the entire directory structure of `cat1` creating an analogous structure named `cat1b`.
+31. Delete all files from the `cat1/cat2` directory.
+32. Delete the entire `cat1b` directory structure with one command.
+33. Rename any file in `cat1` directory.
+34. Move the `cat1/cat2` directory to your home directory thus creating the `cat2b` directory.
+35. Using the `locate` program, find all items that have the word `mozilla` in their name.
+36. Using the `locate` program, find all items that have the word `mozilla` in their names and are located in subdirectories of the `/usr` directory.
+37. Copy all regular files between 10 and 100 bytes in size from the `/usr/bin` directory to the `cat1/cat2` directory (use the `find` command with the `-exec` parameter - be carefull when executing commands this way, those changes might be hard to rollback).
+38. In your home directory, create a file named `file.txt` - check what are the access rights to it.
