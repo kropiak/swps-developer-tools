@@ -15,8 +15,10 @@ Installation is rather straightforward, but might vary depending on the host ope
 
 During lectures and depending on the hardware capabilities there are two possible OS to be used:
 
-* Ubuntu 24.04 LTS Desktop: [Ubuntu 24.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=24.04.1&architecture=amd64&lts=true),
+* Ubuntu 24.04 LTS Desktop: [Ubuntu 24.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=24.04.3&architecture=amd64&lts=true),
 * Lubuntu 24.04 LTS: [Lubuntu 24.04 LTS](https://lubuntu.me/downloads/) (lighter version of Ubuntu, less hardware resources needed to run this OS).
+
+For MacOS with M processors please choose the other version: [Ubuntu 25.10](https://cdimage.ubuntu.com/releases/25.10/release/ubuntu-25.10-desktop-arm64.iso)
 
 **Step 4:** Create virtual machine in the Oracle Virtualbox.
 
